@@ -1,0 +1,19 @@
+8726
+         16 function calls in 10.358 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.387    0.387    0.387    0.387 MoguLovesNumbers1.py:25(answer)
+        1    0.024    0.024   10.358   10.358 MoguLovesNumbers1.py:3(<module>)
+        2    0.000    0.000    0.000    0.000 codecs.py:318(decode)
+        2    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        2    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+        1    0.000    0.000   10.358   10.358 {built-in method builtins.exec}
+        2    9.947    4.974    9.947    4.974 {built-in method builtins.input}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+
+
