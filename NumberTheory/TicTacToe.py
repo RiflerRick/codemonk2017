@@ -54,14 +54,14 @@ def getMaxVal(n):
     # for i in range(1, n):
     #     val=(val+((n-i)*(n-i))%modVal)%modVal
 
-    val=int((n*(n+1)*(2*n+1))/6)
-    print(val)
+    val=int((n*(n+1)*(2*n+1))/6) % modVal
+    # print(val)
     # val%=modVal
     # print('after modVal: {}'.format(val))
-    val-=((n*n))
-    print('val after negating n**2: {}'.format(val))
+    val-=((n*n))%modVal
+    # print('val after negating n**2: {}'.format(val))
     val%=modVal
-    print('after modVal again: {}'.format(val))
+    # print('after modVal again: {}'.format(val))
     return val
 
 t=int(input())
